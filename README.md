@@ -11,4 +11,4 @@ Immediately when opening up the PCAP I notice among the first packets there are 
 Flag: flagga1{klassiska_lösenord_för_100}
 
 
-
+tshark -Y "dns and ip.src == 10.0.0.10" -T fields -e "dns.qry.name" -r kattastrofen.pcap > output.txt
