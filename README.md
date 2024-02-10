@@ -31,6 +31,10 @@ with open("output.txt") as file:
         print(removedDots)
         newFile.write(removedDots)
 
-We now have a file in hex value. We can convert it to readable text from cyberchef.
+We now have a file in hex value. We can convert it "from hex" in cyberchef. The new text give us size: 378880, md5: 9d9b374c33a8672f8f8f1af871d7d04f and all the encrypted data.
 
-We now have the encrypted data. By using cyberchef we can decrypt the data by using "from base64" and use the key in XOR. The MD5 
+We now have the encrypted data. By using cyberchef we can decrypt the data by using "from base64" and use the key found in the script in XOR. The MD5 matches
+
+Downloading the file as tar, opening it up and we find it contains a PDF file. Opening the PDF file contain a picture of flag nr 2.
+
+Flagga2{every_day_is_caturday}
