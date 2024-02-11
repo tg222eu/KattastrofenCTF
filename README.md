@@ -43,6 +43,6 @@ Futher investigating the content inside the PDF file by opening a text editor, w
 
 By converting the hex to UTF-8 we get a code with a lot of brackets, parentheses, plus signs and exclamation mark. A quick research reveals that this is JSFuck encrypted. I tried several different tools and the only one that worked was https://enkhee-osiris.github.io/Decoder-JSFuck/. Once decrypted we get a Javascript code. 
 
-
+Since 0.1 + 0.2 == 0.3 will result in tiny rounding errors, because of limitation in floating-point arithmetic in programming in general, the statement will always be false. I removed the if statement since its not fulfilling any purpose. I also removed the app.alert and replaced it with console.log just because of curiousity what the output would look like and it revealed the flag.
 
 Flagga3{mj4u!}
