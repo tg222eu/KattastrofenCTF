@@ -6,7 +6,11 @@ Instructions translated: A civil servant on a protected-worthy goverment has a w
 
 The challenge contain 3 flags that has the form "flagga[1-3]{[a-zå-ö_!]+}"
 
+![alt text](https://github.com/tg222eu/KattastrofenCTF/blob/main/pictures/HTTPpackets.JPG)<br>
+
 Immediately when opening up the PCAP I notice among the first packets there are HTTP objects. I extract the files onto my computer and start investigating. The Kittenz.zip is proctected with a password "hunter2" which was found in %5c file. Once extracted flag file and open it the first flag is revealed.
+
+![alt text](https://github.com/tg222eu/KattastrofenCTF/blob/main/pictures/flagga1.JPG)<br>
 
 Flag: flagga1{klassiska_lösenord_för_100}
 
