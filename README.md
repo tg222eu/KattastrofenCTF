@@ -39,6 +39,10 @@ Downloading the file as tar, opening it up and we find it contains a PDF file. O
 
 Flagga2{every_day_is_caturday}
 
-https://enkhee-osiris.github.io/Decoder-JSFuck/
+Futher investigating the content inside the PDF file by opening a text editor, we find there is a javascript object with a lot of hex characters.
+
+By converting the hex to UTF-8 we get a code with a lot of brackets, parentheses, plus signs and exclamation mark. A quick research reveals that this is JSFuck encrypted. I tried several different tools and the only one that worked was https://enkhee-osiris.github.io/Decoder-JSFuck/. Once decrypted we get a Javascript code. 
+
+
 
 Flagga3{mj4u!}
