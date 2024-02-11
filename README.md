@@ -38,3 +38,7 @@ We now have the encrypted data. By using cyberchef we can decrypt the data by us
 Downloading the file as tar, opening it up and we find it contains a PDF file. Opening the PDF file contain a picture of flag nr 2.
 
 Flagga2{every_day_is_caturday}
+
+https://enkhee-osiris.github.io/Decoder-JSFuck/
+
+Flagga3{mj4u!}
