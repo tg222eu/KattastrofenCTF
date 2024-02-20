@@ -1,6 +1,7 @@
 # Kattastrofen CTF
 <br>
-This is a CTF challange made by FRA which can be found here https://challenge.fra.se/
+This is a CTF challange made by FRA which can be found here https://challenge.fra.se/ <br>
+I was able to find all the flags and description how I found them are below
 <br>
 <br>
 <br>
